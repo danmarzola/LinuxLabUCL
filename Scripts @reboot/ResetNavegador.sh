@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo cp -rf '/home/google-chrome/' '/home/ucl/.config/' && sudo chmod -R 777 '/home/ucl/.config/google-chrome/' && sudo rm -rf '/home/ucl/.cache/google-chrome/' && sudo rm -rf '/home/ucl/.cache/mozilla/' && sudo rm -rf '/home/ucl/.mozilla/' && sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"
+sudo rm -rf '/home/google-chrome/' '/home/ucl/.config/' && sudo rm -rf '/home/ucl/.cache/google-chrome/' && sudo rm -rf '/home/ucl/.cache/mozilla/' && sudo rm -rf '/home/ucl/.mozilla/'
