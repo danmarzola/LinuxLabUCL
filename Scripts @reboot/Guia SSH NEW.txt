@@ -10,9 +10,7 @@ https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reb
 
 WallPaper
 
-sudo rm -f /usr/share/lubuntu/wallpapers/* && sudo mv -f UCL2020-1-WP.png /usr/share/lubuntu/wallpapers/
-
-gsettings set org.gnome.desktop.background picture-uri file:////usr/share/lubuntu/wallpapers/UCL2020-1-WP.png
+wget https://github.com/danmarzola/LinuxLabUCL/raw/master/UCLWallpaper/CalendarioManguinhos2020-1.png && wget https://github.com/danmarzola/LinuxLabUCL/raw/master/UCLWallpaper/CalendarioManguinhos2020-2.png && sudo rm -f /usr/share/lubuntu/wallpapers/* && sudo mv -f *.png /usr/share/lubuntu/wallpapers/
 
 
 su - ucl
