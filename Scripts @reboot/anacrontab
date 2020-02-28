@@ -8,4 +8,5 @@ HOME=/root
 LOGNAME=root
 
 # These replace cron's entries
-@reboot 0 rotina-reboot /bin/bash /home/CleanGoogleChromeAndFireFox.sh
+@reboot 0 rotina-reboot /bin/bash /usr/UCLScripts/ResetNavegador.sh
+@reboot 1 rotina-reboot /bin/bash /usr/UCLScripts/ResetNavegador.sh
