@@ -1,0 +1,324 @@
+Abrir terminal com CTRL+T e digitar: 
+
+
+sudo passwd root
+
+
+su -
+
+
+
+1) Programa Básicos para todas as máquinas LibreOffice + GOOGLE CHROME + GERENCIADOR DE TAREFAS + EDITORES DE TEXTO + ARDUINO + CODEBLOCKS + GCC + GIT + ICE (office 365 atalho) + SNAPD + OPENJDK 8 + OPENSSH +CLUSTERSSH +SSHPASS + NTP +NTPDATE
+
+
+
+sudo apt-get install gdebi && wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo gdebi -n google-chrome-stable_current_amd64.deb && sudo apt-get update && sudo apt upgrade -y && sudo add-apt-repository -y ppa:libreoffice/ppa && sudo apt-add-repository -y ppa:teejee2008/ppa && sudo apt update && sudo apt-get install gedit vim cream jedit emacs nano scite bluefish kwrite snapd kate gnome-system-monitor arduino unrar codeblocks codeblocks-contrib build-essential git openssh-server openjdk-8-jdk libreoffice libreoffice-style-breeze timeshift pdsh sshpass clusterssh -y && wget https://launchpad.net/~peppermintos/+archive/ubuntu/p7-release/+files/ice_5.3.1_all.deb && sudo gdebi -n ice_5.3.1_all.deb && sudo sed -i 's/\#PermitRootLogin\ prohibit\-password/PermitRootLogin\ yes/g' /etc/ssh/sshd_config && sudo sed -i 's/1/0/g' /etc/default/apport && sudo sed -i "s/\*selectToClipboard\:\ true//g" /etc/X11/app-defaults/XTerm && sudo sed -i "\$a*selectToClipboard: true" /etc/X11/app-defaults/XTerm && sudo sed -i 's/\#\ \ \ StrictHostKeyChecking\ ask/\ \ \ StrictHostKeyChecking\ no /g' /etc/ssh/ssh_config && sudo reboot
+
+
+
+
+2) WINETRICKS https://askubuntu.com/questions/755059/how-do-i-get-the-latest-version-of-winetricks-on-ubuntu + WINE https://itsfoss.com/install-latest-wine/
+
+
+
+
+
+
+wget  https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks && chmod +x winetricks && sudo mv -v winetricks /usr/local/bin && sudo dpkg --add-architecture i386 && wget -nc https://dl.winehq.org/wine-builds/winehq.key; sudo apt-key add winehq.key && sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main' && sudo add-apt-repository ppa:cybermax-dexter/sdl2-backport && sudo apt update && sudo apt install --install-recommends winehq-stable -y && sudo apt-get install cabextract zenity -y && winecfg
+
+
+
+
+
+Instalar todas as dependências requisitadas até abrir a janela de config(1º execução)
+
+
+
+
+3) Selecionar OPENJAVA JDK 8 como default
+
+
+sudo update-java-alternatives -l
+sudo update-java-alternatives -s java-1.8.0-openjdk-amd64 --jre
+
+
+java -version....+            
+checar se a versão default é a 1.8
+
+
+
+
+4) CRIAR ATALHO 365
+
+
+
+
+Microsoft Office 365
+
+
+
+
+https://www.office.com/?WT.mc_id=Office_Products_site&omkt=pt-BR&auth=2
+
+
+
+
+6) PENCIL PROJECT
+
+
+wget https://pencil.evolus.vn/dl/V3.1.0.ga/pencil_3.1.0.ga_amd64.deb && sudo gdebi -n pencil_3.1.0.ga_amd64.deb
+
+
+
+
+7) MYOPENLAB 3.12: https://drive.google.com/file/d/1EfLRk0Ia_ElV9pN_y-9gRD218RYODXWq/view?usp=sharing
+
+
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1EfLRk0Ia_ElV9pN_y-9gRD218RYODXWq' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1EfLRk0Ia_ElV9pN_y-9gRD218RYODXWq" -O MyOpenLab.zip && rm -rf /tmp/cookies.txt && sudo unzip MyOpenLab.zip && sudo chmod -R 777 MyOpenLab/ && sudo mv MyOpenLab/ /usr
+
+
+
+
+Copiar o atalho MyOpenLab.desktop para o menu correto
+
+
+
+
+8) ARENA ROCKWELL: https://docs.google.com/a/ucl.br/uc?id=0B9E4PBTR6wtKNGY3NV9yY29odUU&export=download
+
+
+
+WINEPREFIX="$HOME/.wine32" WINEARCH=win32 winetricks -q mdac28 jet40 dotnet20 dotnet40; wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=0B9E4PBTR6wtKNGY3NV9yY29odUU' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=0B9E4PBTR6wtKNGY3NV9yY29odUU" -O Rockwell.Automation.Arena.v14.zip && rm -rf /tmp/cookies.txt && unzip Rockwell.Automation.Arena.v14.zip -d RockwellArena && cd RockwellArena/Rockwell.Automation.Arena.v14 && WINEPREFIX="$HOME/.wine32" WINEARCH=win32 wine autorun.exe
+
+
+
+
+9) SQLDEVELOPER:  https://drive.google.com/a/ucl.br/uc?id=1WU83iyvbpGdkhdSHch5ew6_mZKGqScPK&export=download
+
+
+
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1WU83iyvbpGdkhdSHch5ew6_mZKGqScPK' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1WU83iyvbpGdkhdSHch5ew6_mZKGqScPK" -O sqldeveloper_19.2.1-248.2212_all.deb && rm -rf /tmp/cookies.txt && sudo gdebi -n sqldeveloper_19.2.1-248.2212_all.deb
+
+
+
+
+EXECUTAR Primeira Vez
+
+
+
+
+sqldeveloper
+/usr/lib/jvm/java-11-openjdk-amd64
+
+
+
+
+10) VISUAL STUDIO CODE + SDK .NET CORE: https://docs.microsoft.com/pt-br/dotnet/core/tutorials/with-visual-studio-code
+
+
+https://github.com/dotnet/cli/issues/7610
+
+
+
+
+sudo apt install curl -y && sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list' && curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg  && sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg && sudo apt-get update  && sudo apt-get install code -y && wget -q https://packages.microsoft.com/config/ubuntu/19.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb && sudo dpkg -i packages-microsoft-prod.deb && sudo apt-get update && sudo apt-get install apt-transport-https -y && sudo apt-get update && sudo apt-get install dotnet-sdk-3.1 -y && sudo apt-get update && sudo apt-get install apt-transport-https -y && sudo apt-get update && sudo apt-get install aspnetcore-runtime-3.1 -y
+
+
+
+
+Criar o Folder VSWORKSPACE
+Abrir o terminal (View > terminal)
+No terminal digitar:
+dotnet new console
+dotnet run
+
+
+Aceitar todas as dependencias!
+
+
+10) R Software
+
+sudo apt-get install r-base r-base-dev  libatlas3-base libopenblas-base -y
+wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.2.5033-amd64.deb && sudo gdebi -n rstudio-1.2.5033-amd64.deb
+Abrir e instalar os pacotes
+sudo r
+install.packages(“readxl”)
+install.packages(“fdth”)
+
+
+11) ECLIPSE
+
+
+sudo snap install eclipse --classic
+
+
+12) NETBEANS
+
+
+sudo snap install netbeans --classic
+
+
+13) PYCHARM
+
+
+sudo snap install pycharm-community --classic
+
+
+
+
+14) OCTAVE
+
+
+Instalar pela Loja
+
+
+sudo sed -i "\$agraphics\_toolkit\ \(\"gnuplot\"\)" ~/.octaverc
+
+
+
+
+
+14) MPLAB X: https://www.microchip.com/development-tools/pic-and-dspic-downloads-archive
+
+
+
+
+wget http://ww1.microchip.com/downloads/en/DeviceDoc/MPLABX-v5.20-linux-installer.tar && tar -xvf MPLABX-v5.20-linux-installer.tar && chmod u+x MPLABX-v5.20-linux-installer.sh  && sudo ./MPLABX-v5.20-linux-installer.sh
+
+
+!!!!Um de cada vez!!!
+
+
+wget https://www.microchip.com/mplabxc16linux && chmod u+x mplabxc16linux && sudo ./mplabxc16linux
+
+
+
+
+wget https://www.microchip.com/mplabxc32linux && chmod u+x mplabxc32linux && sudo ./mplabxc32linux
+
+
+
+
+
+15) BOOLE DEUSTO
+
+
+
+Download: https://drive.google.com/file/d/1QUMJgiQGuTij6QIe3MqJT9CeKpb8t5JZ/view?usp=sharing
+
+
+
+
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1QUMJgiQGuTij6QIe3MqJT9CeKpb8t5JZ' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1QUMJgiQGuTij6QIe3MqJT9CeKpb8t5JZ" -O BooleDeusto.zip && rm -rf /tmp/cookies.txt && sudo unzip BooleDeusto.zip && sudo mv BooleDeusto/ /home && sudo chmod -R 777 /home/BooleDeusto
+
+
+
+
+
+
+Colocar o BooleDeusto.desktop no menu inicar correto
+
+
+
+
+
+
+
+
+16) BRMODELO https://drive.google.com/file/d/1uX9l7zeFJ1swxgizjzYijg6wM-NMkHA-/view?usp=sharing
+
+
+
+
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1uX9l7zeFJ1swxgizjzYijg6wM-NMkHA-' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1uX9l7zeFJ1swxgizjzYijg6wM-NMkHA-" -O BrModelo.zip && rm -rf /tmp/cookies.txt && sudo unzip BrModelo.zip && sudo mv BrModelo/ /home  && sudo chmod -R 777 /home/BrModelo
+
+
+
+
+Colocar o BrModelo.desktop no menu inicar correto
+
+
+
+17) FLUIDSIM https://drive.google.com/file/d/1E9RB3B0UDLctpDYuL5yaTqdSFDKAV-Oq/view?usp=sharing
+
+
+
+
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1E9RB3B0UDLctpDYuL5yaTqdSFDKAV-Oq' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1E9RB3B0UDLctpDYuL5yaTqdSFDKAV-Oq" -O FluidSIM.zip && rm -rf /tmp/cookies.txt && sudo unzip FluidSIM.zip && sudo mv FluidSIM/ /home && sudo chmod -R 777 /home/FluidSIM
+
+
+Colocar o FluidSimH.desktop e FluidSimP.desktop no menu inicar correto
+
+
+
+18) CONTROL STATION
+
+
+
+Execute o instalador com wine
+
+
+
+
+
+
+19) LTSPICE
+
+wget http://ltspice.analog.com/software/LTspiceXVII.exe && wine LTspiceXVII.exe
+
+Seguir Instalação Manual
+
+
+
+
+Final) DESABILITAR PROTEÇÃO  DE TELA
+MENU>PREFERENCIAS>GERENCIAMENTO DE ENERGIA
+Aba de Tela: Desativar/Nunca
+Aba de Segurança: Desativar/Nunca
+
+
+
+
+
+
+
+
+TELAS DE FUNDO:
+
+DOWNLOAD 1024: 
+https://drive.google.com/file/d/145BbKHuenPUw1003ffoc7TB8ozUanMbJ/view?usp=sharing
+
+
+DOWNLOAD 1380: 
+https://drive.google.com/file/d/1pz6tCbCGbYZ8R74LBrKVSKLrqzooalTp/view?usp=sharing
+
+
+
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=145BbKHuenPUw1003ffoc7TB8ozUanMbJ' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=145BbKHuenPUw1003ffoc7TB8ozUanMbJ" -O UCL2020_1_1024.jpg && rm -rf /tmp/cookies.txt && wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1pz6tCbCGbYZ8R74LBrKVSKLrqzooalTp' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1pz6tCbCGbYZ8R74LBrKVSKLrqzooalTp" -O UCL2020_1_1380.jpg && rm -rf /tmp/cookies.txt && sudo mv *.jpg -f -v /usr/share/lubuntu/wallpapers/
+
+
+
+
+
+ABRIR PREFERENCIAS DO USUARIO PARA MODIFICAR
+
+
+
+
+
+
+
+
+DESABILITAR ATUALIZAÇOES AUTOMATICAS
+
+
+
+
+
+
+
+
+FINALIZAR:
+
+
+sudo apt-get update && sudo apt upgrade -y && reboot
