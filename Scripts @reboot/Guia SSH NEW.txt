@@ -1,33 +1,16 @@
-https://drive.google.com/file/d/1EusVZBbBoUWlZxGZR8-LWA-ORYyZyaOA/view?usp=sharing
-
-Google Drive File
-
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1EusVZBbBoUWlZxGZR8-LWA-ORYyZyaOA' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1EusVZBbBoUWlZxGZR8-LWA-ORYyZyaOA" -O google-chrome.zip && rm -rf /tmp/cookies.txt && sudo unzip google-chrome && 
-sudo chmod -R u=rx google-chrome/ && sudo mv -f google-chrome/ /home
-
-https://drive.google.com/file/d/1fy16cQiaeVBlIiXihUrjvEiTA4-ZwATY/view?usp=sharing
-
 Script Reset
 
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1fy16cQiaeVBlIiXihUrjvEiTA4-ZwATY' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1fy16cQiaeVBlIiXihUrjvEiTA4-ZwATY" -O CleanGoogleChromeAndFireFox.sh && rm -rf /tmp/cookies.txt && 
-sudo chmod -R u=rx CleanGoogleChromeAndFireFox.sh && sudo mv -f CleanGoogleChromeAndFireFox.sh /home
-
-https://drive.google.com/file/d/1KhnltWgAf6dQh5xBxYfpqRhR3KUsul-t/view
-
-Fix anacrontab
-
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1KhnltWgAf6dQh5xBxYfpqRhR3KUsul-t' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1KhnltWgAf6dQh5xBxYfpqRhR3KUsul-t" -O anacrontab && rm -rf /tmp/cookies.txt && 
-sudo chmod -R u=rx anacrontab && sudo mv -f anacrontab /etc/
+wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/ResetNavegador.sh && sudo mkdir -p /usr/UCLScripts && sudo mv -f ResetNavegador.sh /usr/UCLScripts/
 
 
-sudo sed -i "\$a\@reboot\ 0\ rotina-reboot\ \/bin\/bash\ \/home\/CleanGoogleChromeAndFireFox.sh" /etc/anacrontab
+Replace anacrontab
+
+https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/anacrontab && sudo mv -f anacrontab /etc/
 
 
+WallPaper
 
-https://drive.google.com/file/d/1xqz758cYIAfK4ghQApa5LGAQLW2bZmCI/view?usp=sharing
-
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1xqz758cYIAfK4ghQApa5LGAQLW2bZmCI' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1xqz758cYIAfK4ghQApa5LGAQLW2bZmCI" -O UCL2020-1-WP.png && rm -rf /tmp/cookies.txt && 
-sudo chmod -R 777 UCL2020-1-WP.png && sudo rm -f /usr/share/lubuntu/wallpapers/* && sudo mv -f UCL2020-1-WP.png /usr/share/lubuntu/wallpapers/
+sudo rm -f /usr/share/lubuntu/wallpapers/* && sudo mv -f UCL2020-1-WP.png /usr/share/lubuntu/wallpapers/
 
 gsettings set org.gnome.desktop.background picture-uri file:////usr/share/lubuntu/wallpapers/UCL2020-1-WP.png
 
