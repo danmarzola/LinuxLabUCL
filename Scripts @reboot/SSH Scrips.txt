@@ -14,8 +14,6 @@ Replace anacrontab
 
 wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/anacrontab && sudo chmod -R u=rx anacrontab && sudo mv -f anacrontab /etc/
 
-wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/FixLinux.sh && sudo chmod -R u=rx FixLinux.sh && sudo mkdir -p /usr/UCLScripts && sudo mv -f FixLinux.sh /usr/UCLScripts/
-
 WallPaper
 
 wget https://github.com/danmarzola/LinuxLabUCL/raw/master/UCLWallpaper/CalendarioManguinhos2020-1.png && wget https://github.com/danmarzola/LinuxLabUCL/raw/master/UCLWallpaper/CalendarioManguinhos2020-2.png && sudo rm -f /usr/share/lubuntu/wallpapers/* && sudo mv -f *.png /usr/share/lubuntu/wallpapers/ && sudo chmod -R u=rx /usr/share/lubuntu/wallpapers/
