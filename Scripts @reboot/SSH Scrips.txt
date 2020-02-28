@@ -6,11 +6,15 @@ Script Fix Date
 
 wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/FixDate.sh && sudo chmod -R u=rx FixDate.sh && sudo mkdir -p /usr/UCLScripts && sudo mv -f FixDate.sh /usr/UCLScripts/
 
+Script Fix Linux
+
+wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/FixLinux.sh && sudo chmod -R u=rx FixLinux.sh && sudo mkdir -p /usr/UCLScripts && sudo mv -f FixLinux.sh /usr/UCLScripts/
 
 Replace anacrontab
 
 wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/anacrontab && sudo chmod -R u=rx anacrontab && sudo mv -f anacrontab /etc/
 
+wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/FixLinux.sh && sudo chmod -R u=rx FixLinux.sh && sudo mkdir -p /usr/UCLScripts && sudo mv -f FixLinux.sh /usr/UCLScripts/
 
 WallPaper
 
