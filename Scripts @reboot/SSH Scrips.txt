@@ -1,20 +1,20 @@
 Script Reset
 
-wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/ResetNavegador.sh && sudo mkdir -p /usr/UCLScripts && sudo mv -f ResetNavegador.sh /usr/UCLScripts/
+wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/ResetNavegador.sh && sudo chmod -R u=rx ResetNavegador.sh && sudo mkdir -p /usr/UCLScripts && sudo mv -f ResetNavegador.sh /usr/UCLScripts/
 
 Script Fix Date
 
-wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/FixDate.sh && sudo mkdir -p /usr/UCLScripts && sudo mv -f FixDate.sh /usr/UCLScripts/
+wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/FixDate.sh && sudo chmod -R u=rx FixDate.sh && sudo mkdir -p /usr/UCLScripts && sudo mv -f FixDate.sh /usr/UCLScripts/
 
 
 Replace anacrontab
 
-wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/anacrontab && sudo mv -f anacrontab /etc/
+wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/anacrontab && sudo chmod -R u=rx anacrontab && sudo mv -f anacrontab /etc/
 
 
 WallPaper
 
-wget https://github.com/danmarzola/LinuxLabUCL/raw/master/UCLWallpaper/CalendarioManguinhos2020-1.png && wget https://github.com/danmarzola/LinuxLabUCL/raw/master/UCLWallpaper/CalendarioManguinhos2020-2.png && sudo rm -f /usr/share/lubuntu/wallpapers/* && sudo mv -f *.png /usr/share/lubuntu/wallpapers/
+wget https://github.com/danmarzola/LinuxLabUCL/raw/master/UCLWallpaper/CalendarioManguinhos2020-1.png && wget https://github.com/danmarzola/LinuxLabUCL/raw/master/UCLWallpaper/CalendarioManguinhos2020-2.png && sudo rm -f /usr/share/lubuntu/wallpapers/* && sudo mv -f *.png /usr/share/lubuntu/wallpapers/ && sudo chmod -R u=rx /usr/share/lubuntu/wallpapers/
 
 
 su - ucl
