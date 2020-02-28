@@ -9,7 +9,7 @@ wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%
 
 Replace anacrontab
 
-https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/anacrontab && sudo mv -f anacrontab /etc/
+wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/anacrontab && sudo mv -f anacrontab /etc/
 
 
 WallPaper
