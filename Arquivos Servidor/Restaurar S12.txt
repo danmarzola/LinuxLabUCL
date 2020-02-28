@@ -1,0 +1,13 @@
+﻿1) Abrir o terminal para copiar e colar a linha abaixo (coloque para quebrar a linha para ter melhor visualização)
+
+
+clusterssh root@10.200.0.70 root@10.200.0.71 root@10.200.0.72 root@10.200.0.73 root@10.200.0.74 root@10.200.0.75 root@10.200.0.76 root@10.200.0.77 root@10.200.0.78 root@10.200.0.79 root@10.200.0.80 root@10.200.0.81 root@10.200.0.82 root@10.200.0.83 root@10.200.0.84 root@10.200.0.85 root@10.200.0.86 root@10.200.0.87
+
+
+2) Copie e Cole a linha abaixo na janela pequena que replica para todas as outras e de enter
+
+
+timeshift --restore --snapshot 'Backup1' --yes && reboot
+
+
+3) Consulte uma das janelas para seguir o resto do procedimento: Digitar yes ou/e apertar enter

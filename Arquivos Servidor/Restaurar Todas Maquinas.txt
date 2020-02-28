@@ -1,0 +1,20 @@
+
+1) Abrir o terminal para copiar e colar a linha abaixo (coloque para quebrar a linha para ter melhor visualização)
+
+
+clusterssh root@10.200.0.52 root@10.200.0.53 root@10.200.0.54 root@10.200.0.55 root@10.200.0.56 root@10.200.0.57 root@10.200.0.58 root@10.200.0.59 root@10.200.0.60 root@10.200.0.61 root@10.200.0.62 root@10.200.0.63 root@10.200.0.64 root@10.200.0.65 root@10.200.0.66 root@10.200.0.67 root@10.200.0.68 root@10.200.0.69 root@10.200.0.70 root@10.200.0.71 root@10.200.0.72 root@10.200.0.73 root@10.200.0.74 root@10.200.0.75 root@10.200.0.76 root@10.200.0.77 root@10.200.0.78 root@10.200.0.79 root@10.200.0.80 root@10.200.0.81 root@10.200.0.82 root@10.200.0.83 root@10.200.0.84 root@10.200.0.85 root@10.200.0.86 root@10.200.0.87 root@10.200.0.88 root@10.200.0.89 root@10.200.0.90 root@10.200.0.91 root@10.200.0.92 root@10.200.0.93 root@10.200.0.94 root@10.200.0.95 root@10.200.0.96 root@10.200.0.97 root@10.200.0.98 root@10.200.0.99 root@10.200.0.100 root@10.200.0.101 root@10.200.0.102 root@10.200.0.103 root@10.200.0.104 root@10.200.0.105 root@10.200.0.106 root@10.200.0.107 root@10.200.0.108 root@10.200.0.109 root@10.200.0.110 root@10.200.0.111 root@10.200.0.112 root@10.200.0.113 root@10.200.0.132 root@10.200.0.133 root@10.200.0.134 root@10.200.0.135 root@10.200.0.136 root@10.200.0.137 root@10.200.0.138 root@10.200.0.139 root@10.200.0.140 root@10.200.0.141 root@10.200.0.142 root@10.200.0.143 root@10.200.0.144 root@10.200.0.145 root@10.200.0.146 root@10.200.0.147 root@10.200.0.148 root@10.200.0.149 root@10.200.0.150 root@10.200.0.151 root@10.200.0.152 root@10.200.0.153 root@10.200.0.154 root@10.200.0.155 root@10.200.0.156 root@10.200.0.157
+
+
+2) Copie e Cole a linha abaixo na janela pequena que replica para todas as outras e de enter
+
+
+timeshift --restore --snapshot 'Backup1' --yes && reboot
+
+
+3) Consulte uma das janelas para seguir o resto do procedimento: Digitar yes ou/e apertar enter
+
+
+
+FIX Hora:
+
+./home/CleanGoogleChromeAndFireFox.sh

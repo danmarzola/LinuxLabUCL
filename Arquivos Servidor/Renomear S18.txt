@@ -1,0 +1,102 @@
+﻿sshpass -p "Pr1nt@UcL" ssh root@10.200.0.132
+x=VII-S18-01  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.133
+x=VII-S18-02  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.134
+x=VII-S18-03  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.135
+x=VII-S18-04  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.136
+x=VII-S18-05  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.137
+x=VII-S18-06  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.138
+x=VII-S18-07  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.139
+x=VII-S18-08  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.140
+x=VII-S18-09  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.141
+x=VII-S18-10  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.142
+x=VII-S18-11  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.143
+x=VII-S18-12  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.144
+x=VII-S18-13  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.145
+x=VII-S18-14  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.146
+x=VII-S18-15  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.147
+x=VII-S18-16  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.148
+x=VII-S18-17  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.149
+x=VII-S18-18  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.150
+x=VII-S18-19  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.151
+x=VII-S18-20  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.152
+x=VII-S18-21  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.153
+x=VII-S18-22  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.154
+x=VII-S18-23  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.155
+x=VII-S18-24  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.156
+x=VII-S18-25  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.157
+x=VII-S18-26  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot

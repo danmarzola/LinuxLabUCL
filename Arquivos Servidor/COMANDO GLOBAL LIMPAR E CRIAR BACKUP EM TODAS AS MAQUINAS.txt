@@ -1,0 +1,34 @@
+﻿1) Abrir o terminal e digita a linha abaixo
+
+
+pdsh -w ^hosts -R ssh
+
+pcmanfm --set-wallpaper="/usr/share/lubuntu/wallpapers/UCL2020-1-WP.png"
+
+2) Tudo agora será aplicado a todas as maquinas, porem nao temos uma confirmacao visual de tudo, logo apos executar algum comando aguarde alguns segundos!
+
+
+2.1) Se as maquinas estiverem ja restauradas ou no estado inicial de clonagem, limpe o backup com o comando
+
+
+timeshift --delete-all
+
+
+2.2) User o comando abaixo para criar os backups, de preferencia com a maquina restaurada e sem nenhum outro backup
+
+
+timeshift --create
+
+
+2.3) Apos usar o create, aplicar o renomear com a linha abaixo
+
+
+mv /mnt/timeshift/backup/timeshift-btrfs/snapshots/* /mnt/timeshift/backup/timeshift-btrfs/snapshots/Backup1
+
+
+timeshift --list
+
+FEITO!
+
+
+timeshift --delete-all && timeshift --create && mv /mnt/timeshift/backup/timeshift-btrfs/snapshots/* /mnt/timeshift/backup/timeshift-btrfs/snapshots/Backup1 && timeshift --list && shutdown

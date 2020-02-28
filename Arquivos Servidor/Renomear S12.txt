@@ -1,0 +1,70 @@
+﻿sshpass -p "Pr1nt@UcL" ssh root@10.200.0.70
+x=IV-S12-01  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.71
+x=IV-S12-02  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.72
+x=IV-S12-03 && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.73
+x=IV-S12-04 && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.74
+x=IV-S12-05  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.75
+x=IV-S12-06  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.76
+x=IV-S12-07  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.77
+x=IV-S12-08 && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.78
+x=IV-S12-09 && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.79
+x=IV-S12-10 && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.80
+x=IV-S12-11  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.81
+x=IV-S12-12  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.82
+x=IV-S12-13  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.83
+x=IV-S12-14  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.84
+x=IV-S12-15  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.85
+x=IV-S12-16  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.86
+x=IV-S12-17  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
+
+
+sshpass -p "Pr1nt@UcL" ssh root@10.200.0.87
+x=IV-S12-18  && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hostname && sudo sed -i "s/$HOSTNAME/$x/g" /etc/hosts && reboot
