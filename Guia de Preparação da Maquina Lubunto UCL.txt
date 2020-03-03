@@ -277,46 +277,7 @@ Aba de Tela: Desativar/Nunca
 Aba de Segurança: Desativar/Nunca
 
 
-
-
-
-
-
-
-TELAS DE FUNDO:
-
-DOWNLOAD 1024: 
-https://drive.google.com/file/d/145BbKHuenPUw1003ffoc7TB8ozUanMbJ/view?usp=sharing
-
-
-DOWNLOAD 1380: 
-https://drive.google.com/file/d/1pz6tCbCGbYZ8R74LBrKVSKLrqzooalTp/view?usp=sharing
-
-
-
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=145BbKHuenPUw1003ffoc7TB8ozUanMbJ' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=145BbKHuenPUw1003ffoc7TB8ozUanMbJ" -O UCL2020_1_1024.jpg && rm -rf /tmp/cookies.txt && wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1pz6tCbCGbYZ8R74LBrKVSKLrqzooalTp' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1pz6tCbCGbYZ8R74LBrKVSKLrqzooalTp" -O UCL2020_1_1380.jpg && rm -rf /tmp/cookies.txt && sudo mv *.jpg -f -v /usr/share/lubuntu/wallpapers/
-
-
-
-
-
-ABRIR PREFERENCIAS DO USUARIO PARA MODIFICAR
-
-
-
-
-
-
-
-
 DESABILITAR ATUALIZAÇOES AUTOMATICAS
-
-
-
-
-
-
-
 
 FINALIZAR:
 
