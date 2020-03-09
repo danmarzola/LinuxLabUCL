@@ -269,7 +269,13 @@ wget http://ltspice.analog.com/software/LTspiceXVII.exe && wine LTspiceXVII.exe
 Seguir Instalação Manual
 
 
+20) ATOM
 
+wget https://atom.io/download/deb -O Atom.deb && sudo gdebi -n Atom.deb && sudo rm Atom.deb
+
+21) Nodejs
+
+sudo apt install nodejs npm -y
 
 Final) DESABILITAR PROTEÇÃO  DE TELA
 MENU>PREFERENCIAS>GERENCIAMENTO DE ENERGIA
