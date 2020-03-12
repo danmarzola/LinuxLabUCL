@@ -2,6 +2,10 @@ Script Reset
 
 wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/ResetNavegador.sh && sudo chmod -R u=rx ResetNavegador.sh && sudo mkdir -p /usr/UCLScripts && sudo mv -f ResetNavegador.sh /usr/UCLScripts/
 
+Script Timeshift
+
+wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/RestoreTimeShift.sh && sudo chmod -R u=rx RestoreTimeShift.sh && sudo mkdir -p /usr/UCLScripts && sudo mv -f RestoreTimeShift.sh /usr/UCLScripts/
+
 Script Fix Date
 
 wget https://raw.githubusercontent.com/danmarzola/LinuxLabUCL/master/Scripts%20%40reboot/FixDate.sh && sudo chmod -R u=rx FixDate.sh && sudo mkdir -p /usr/UCLScripts && sudo mv -f FixDate.sh /usr/UCLScripts/
