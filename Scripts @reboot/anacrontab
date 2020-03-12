@@ -10,3 +10,4 @@ LOGNAME=root
 # These replace cron's entries
 @reboot 0 rotina-reboot /bin/bash /usr/UCLScripts/ResetNavegador.sh
 @reboot 1 rotina-reboot /bin/bash /usr/UCLScripts/FixDate.sh
+@reboot 15 rotina-reboot /bin/bash /usr/UCLScripts/RestoreTimeShift.sh
